@@ -59,8 +59,8 @@ const paymentMethods = [
   },
   {
     id: "qr",
-    name: "Quét mã QR",
-    description: "Quét mã QR để thanh toán",
+    name: "VietQR",
+    description: "Thanh toán nhanh chóng qua VietQR",
     icon: <QrCode className="h-5 w-5 text-primary" />,
   },
 ];
@@ -346,17 +346,19 @@ const CheckoutPage = () => {
                     {/* Display QR code if QR selected */}
                     {selectedPayment === "qr" && (
                       <div className="mt-4 p-4 border border-dashed border-primary rounded-lg flex flex-col items-center">
-                        <p className="text-center mb-2">Quét mã QR để thanh toán</p>
+                        <p className="font-semibold text-center mb-2">Quét mã VietQR để thanh toán</p>
                         <div className="bg-white p-2 rounded">
                           <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg"
-                            alt="Payment QR Code"
-                            className="w-48 h-48"
+                            src="/images/vietqr-payment.svg"
+                            alt="VietQR Payment Code"
+                            className="w-64 h-auto"
                           />
                         </div>
-                        <p className="text-sm text-neutral-800 mt-2">
-                          Sử dụng ứng dụng ngân hàng hoặc ví điện tử để quét mã QR
-                        </p>
+                        <div className="text-sm text-neutral-800 mt-3 text-center">
+                          <p className="mb-1"><strong>Người nhận:</strong> NGUYEN HUY HOAN</p>
+                          <p className="mb-1"><strong>Số tài khoản:</strong> 369271103</p>
+                          <p className="mt-2">Sử dụng ứng dụng ngân hàng hỗ trợ VietQR hoặc quét bằng camera</p>
+                        </div>
                       </div>
                     )}
 

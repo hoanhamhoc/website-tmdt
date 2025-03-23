@@ -14,8 +14,8 @@ const PaymentMethods = () => {
     },
     {
       icon: <QrCode className="text-primary h-8 w-8" />,
-      title: "Quét mã QR",
-      description: "Thanh toán nhanh chóng với QR"
+      title: "VietQR",
+      description: "Thanh toán nhanh chóng qua ngân hàng"
     },
     {
       icon: <Banknote className="text-primary h-8 w-8" />,

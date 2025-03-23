@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="450"
+   viewBox="0 0 400 450"
+   xmlns="http://www.w3.org/2000/svg">
+   <rect width="100%" height="100%" fill="#e8f4f8" />
+   
+   <!-- QR code container with shadow -->
+   <rect x="60" y="70" width="280" height="330" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1))" />
+   
+   <!-- VietQR header -->
+   <g transform="translate(80, 90)">
+     <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#003366">NGUYEN HUY HOAN</text>
+     <text x="0" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#333333">369271103</text>
+     
+     <!-- Red star logo -->
+     <g transform="translate(-15, 15)">
+       <path d="M15,0 L18.5,10.5 L30,10.5 L20.5,17 L24,27.5 L15,21 L6,27.5 L9.5,17 L0,10.5 L11.5,10.5 Z" fill="#e6173e" />
+     </g>
+   </g>
+   
+   <!-- QR code image - placeholder, replace with actual QR -->
+   <g transform="translate(100, 150)">
+     <rect x="0" y="0" width="200" height="200" fill="white" />
+     <!-- Black squares pattern representing QR code -->
+     <g fill="black">
+       <!-- Corner markers -->
+       <rect x="10" y="10" width="30" height="30" />
+       <rect x="15" y="15" width="20" height="20" fill="white" />
+       <rect x="20" y="20" width="10" height="10" />
+       
+       <rect x="160" y="10" width="30" height="30" />
+       <rect x="165" y="15" width="20" height="20" fill="white" />
+       <rect x="170" y="20" width="10" height="10" />
+       
+       <rect x="10" y="160" width="30" height="30" />
+       <rect x="15" y="165" width="20" height="20" fill="white" />
+       <rect x="20" y="170" width="10" height="10" />
+       
+       <!-- QR pattern - simplified representation -->
+       <rect x="50" y="10" width="10" height="10" />
+       <rect x="70" y="10" width="10" height="10" />
+       <rect x="90" y="10" width="10" height="10" />
+       <rect x="110" y="10" width="10" height="10" />
+       <rect x="130" y="10" width="10" height="10" />
+       
+       <rect x="10" y="50" width="10" height="10" />
+       <rect x="50" y="50" width="10" height="10" />
+       <rect x="90" y="50" width="10" height="10" />
+       <rect x="130" y="50" width="10" height="10" />
+       <rect x="170" y="50" width="10" height="10" />
+       
+       <rect x="10" y="70" width="10" height="10" />
+       <rect x="30" y="70" width="10" height="10" />
+       <rect x="50" y="70" width="10" height="10" />
+       <rect x="70" y="70" width="10" height="10" />
+       <rect x="130" y="70" width="10" height="10" />
+       <rect x="150" y="70" width="10" height="10" />
+       
+       <rect x="30" y="90" width="10" height="10" />
+       <rect x="70" y="90" width="10" height="10" />
+       <rect x="110" y="90" width="10" height="10" />
+       <rect x="150" y="90" width="10" height="10" />
+       <rect x="170" y="90" width="10" height="10" />
+       
+       <rect x="10" y="110" width="10" height="10" />
+       <rect x="50" y="110" width="10" height="10" />
+       <rect x="90" y="110" width="10" height="10" />
+       <rect x="130" y="110" width="10" height="10" />
+       <rect x="170" y="110" width="10" height="10" />
+       
+       <rect x="30" y="130" width="10" height="10" />
+       <rect x="70" y="130" width="10" height="10" />
+       <rect x="110" y="130" width="10" height="10" />
+       <rect x="150" y="130" width="10" height="10" />
+       
+       <rect x="50" y="150" width="10" height="10" />
+       <rect x="90" y="150" width="10" height="10" />
+       <rect x="130" y="150" width="10" height="10" />
+       <rect x="170" y="150" width="10" height="10" />
+       
+       <rect x="50" y="170" width="10" height="10" />
+       <rect x="70" y="170" width="10" height="10" />
+       <rect x="90" y="170" width="10" height="10" />
+       <rect x="110" y="170" width="10" height="10" />
+       <rect x="130" y="170" width="10" height="10" />
+       <rect x="150" y="170" width="10" height="10" />
+       <rect x="170" y="170" width="10" height="10" />
+     </g>
+   </g>
+   
+   <!-- Footer with VietQR and Napas logos -->
+   <g transform="translate(100, 370)">
+     <!-- VietQR logo -->
+     <g transform="translate(0, 0)">
+       <text x="0" y="15" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e6173e">Viet</text>
+       <text x="36" y="15" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333333">QR</text>
+     </g>
+     
+     <!-- Napas logo -->
+     <g transform="translate(120, 0)">
+       <text x="0" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#003366">napas</text>
+       <text x="50" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#76b82a">24/7</text>
+     </g>
+   </g>
+   
+   <!-- Winter decorations -->
+   <g transform="translate(20, 400)" opacity="0.7">
+     <path d="M0,0 C10,-10 20,-5 30,0 C40,5 50,0 60,-10 C70,-20 80,-25 90,-20" fill="none" stroke="#4aa3a8" stroke-width="3" />
+     <path d="M10,10 L30,-20 L50,10" fill="none" stroke="#4aa3a8" stroke-width="3" stroke-linecap="round" />
+   </g>
+   
+   <g transform="translate(320, 400)" opacity="0.7">
+     <path d="M0,0 C10,-10 20,-5 30,0 C40,5 50,0 60,-10" fill="none" stroke="#4aa3a8" stroke-width="3" />
+     <path d="M10,10 L30,-20 L50,10" fill="none" stroke="#4aa3a8" stroke-width="3" stroke-linecap="round" />
+     <circle cx="25" cy="-5" r="3" fill="white" />
+     <circle cx="45" cy="-15" r="2" fill="white" />
+   </g>
+</svg>
