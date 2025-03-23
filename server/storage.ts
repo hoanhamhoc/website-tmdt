@@ -442,25 +442,25 @@ export class MemStorage implements IStorage {
         name: "Áo bóng đá",
         slug: "ao-bong-da",
         description: "Áo đấu chính hãng",
-        imageUrl: "https://images.unsplash.com/photo-1671371129503-36c4fc10191a?w=500&auto=format&fit=crop&q=60"
+        imageUrl: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=500&auto=format&fit=crop&q=60"
       },
       {
         name: "Giày bóng đá",
         slug: "giay-bong-da",
         description: "Giày đá bóng chuyên dụng",
-        imageUrl: "https://images.unsplash.com/photo-1516214104703-d870798883c5?w=500&auto=format&fit=crop&q=60"
+        imageUrl: "https://images.unsplash.com/photo-1511886929837-354d1a99fc32?w=500&auto=format&fit=crop&q=60"
       },
       {
         name: "Bóng",
         slug: "bong",
         description: "Bóng thi đấu & tập luyện",
-        imageUrl: "https://images.unsplash.com/photo-1614632537190-23e4146777db?w=500&auto=format&fit=crop&q=60"
+        imageUrl: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=60"
       },
       {
         name: "Phụ kiện",
         slug: "phu-kien",
         description: "Găng tay, băng bảo vệ & hơn thế",
-        imageUrl: "https://images.unsplash.com/photo-1541534405265-5e77da743d14?w=500&auto=format&fit=crop&q=60"
+        imageUrl: "https://images.unsplash.com/photo-1552667466-07770ae110d0?w=500&auto=format&fit=crop&q=60"
       }
     ];
     
@@ -478,7 +478,7 @@ export class MemStorage implements IStorage {
         price: "1550000",
         discountPrice: "1250000",
         categoryId: categories[0].id,
-        imageUrl: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1511746315387-c4a76990fdce?w=500&auto=format&fit=crop&q=60",
         imageUrls: [],
         inStock: true,
         featured: true,
@@ -496,7 +496,7 @@ export class MemStorage implements IStorage {
         price: "2500000",
         discountPrice: null,
         categoryId: categories[1].id,
-        imageUrl: "https://images.unsplash.com/photo-1518656306295-cbc6a5e9f04c?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1575386753795-a2bf6a6f8b87?w=500&auto=format&fit=crop&q=60",
         imageUrls: [],
         inStock: true,
         featured: true,
@@ -514,7 +514,7 @@ export class MemStorage implements IStorage {
         price: "950000",
         discountPrice: null,
         categoryId: categories[2].id,
-        imageUrl: "https://images.unsplash.com/photo-1614632537190-23e4146777db?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=60",
         imageUrls: [],
         inStock: true,
         featured: true,
@@ -531,7 +531,7 @@ export class MemStorage implements IStorage {
         price: "1400000",
         discountPrice: "1190000",
         categoryId: categories[3].id,
-        imageUrl: "https://images.unsplash.com/photo-1577212017308-55c4d6ee8385?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1602919545767-54b776c4c2e5?w=500&auto=format&fit=crop&q=60",
         imageUrls: [],
         inStock: true,
         featured: true,
@@ -566,7 +566,7 @@ export class MemStorage implements IStorage {
         price: "2150000",
         discountPrice: null,
         categoryId: categories[1].id,
-        imageUrl: "https://images.unsplash.com/photo-1593381193756-7fc498189922?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60",
         imageUrls: [],
         inStock: true,
         featured: false,
