@@ -624,7 +624,7 @@ export class MemStorage implements IStorage {
         title: "Top 10 giày đá bóng tốt nhất cho sân cỏ nhân tạo",
         slug: "top-10-giay-da-bong-tot-nhat-cho-san-co-nhan-tao",
         content: "Khám phá những mẫu giày đá bóng được các cầu thủ chuyên nghiệp đánh giá cao nhất cho sân cỏ nhân tạo năm 2023. Từ Nike Mercurial đến Adidas Predator, bài viết sẽ giúp bạn lựa chọn đôi giày phù hợp nhất.",
-        imageUrl: "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=500&auto=format&fit=crop&q=60",
+        imageUrl: "https://images.unsplash.com/photo-1511886929837-354d1a99fc32?w=500&auto=format&fit=crop&q=60",
         userId: 1
       },
       {

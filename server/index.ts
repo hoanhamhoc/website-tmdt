@@ -71,8 +71,9 @@ app.use((req, res, next) => {
   const port = 5000;
   server.listen({
     port,
-    host: "0.0.0.0",
-    reusePort: true,
+    host: process.platform === 'win32' ? 'localhost' : '0.0.0.0',
+    // Chỉ bật reusePort khi không trên Windows
+    ...(process.platform !== 'win32' && { reusePort: true }),
   }, () => {
     log(`serving on port ${port}`);
   });

@@ -22,8 +22,8 @@ const BlogPreview = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-heading font-bold">Tin tức bóng đá</h2>
-          <Link href="/blog">
-            <a className="text-primary font-heading font-semibold hover:underline">Xem tất cả</a>
+          <Link href="/blog" className="text-primary font-heading font-semibold hover:underline">
+            Xem tất cả
           </Link>
         </div>
         
@@ -48,7 +48,7 @@ const BlogPreview = () => {
               <div key={post.id} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                 <div className="h-48 overflow-hidden">
                   <img
-                    src={post.imageUrl}
+                    src={post.imageUrl || ''}
                     alt={post.title}
                     className="w-full h-full object-cover"
                   />
@@ -66,10 +66,8 @@ const BlogPreview = () => {
                   <p className="text-neutral-800 text-sm mb-4">
                     {post.content.substring(0, 100)}...
                   </p>
-                  <Link href={`/blog/${post.slug}`}>
-                    <a className="text-primary font-semibold hover:underline flex items-center">
-                      Đọc thêm <ArrowRight className="ml-1 h-4 w-4" />
-                    </a>
+                  <Link href={`/blog/${post.slug}`} className="text-primary font-semibold hover:underline flex items-center">
+                    Đọc thêm <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </div>
               </div>
