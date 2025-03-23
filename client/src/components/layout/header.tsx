@@ -44,15 +44,11 @@ const Header = () => {
 
             {/* Main Navigation - Hidden on mobile */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link href="/">
-                <a className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/") ? "text-primary" : ""}`}>
-                  Trang chủ
-                </a>
+              <Link href="/" className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/") ? "text-primary" : ""}`}>
+                Trang chủ
               </Link>
-              <Link href="/products">
-                <a className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/products") ? "text-primary" : ""}`}>
-                  Sản phẩm
-                </a>
+              <Link href="/products" className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/products") ? "text-primary" : ""}`}>
+                Sản phẩm
               </Link>
               <div className="relative group">
                 <a href="#" className="font-heading font-medium hover:text-primary transition-colors flex items-center">
@@ -63,25 +59,23 @@ const Header = () => {
                 </a>
                 <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                   <div className="py-2">
-                    <Link href="/products?category=ao-bong-da">
-                      <a className="block px-4 py-2 text-sm hover:bg-neutral-100">Áo bóng đá</a>
+                    <Link href="/products?category=ao-bong-da" className="block px-4 py-2 text-sm hover:bg-neutral-100">
+                      Áo bóng đá
                     </Link>
-                    <Link href="/products?category=giay-bong-da">
-                      <a className="block px-4 py-2 text-sm hover:bg-neutral-100">Giày bóng đá</a>
+                    <Link href="/products?category=giay-bong-da" className="block px-4 py-2 text-sm hover:bg-neutral-100">
+                      Giày bóng đá
                     </Link>
-                    <Link href="/products?category=bong">
-                      <a className="block px-4 py-2 text-sm hover:bg-neutral-100">Bóng</a>
+                    <Link href="/products?category=bong" className="block px-4 py-2 text-sm hover:bg-neutral-100">
+                      Bóng
                     </Link>
-                    <Link href="/products?category=phu-kien">
-                      <a className="block px-4 py-2 text-sm hover:bg-neutral-100">Phụ kiện</a>
+                    <Link href="/products?category=phu-kien" className="block px-4 py-2 text-sm hover:bg-neutral-100">
+                      Phụ kiện
                     </Link>
                   </div>
                 </div>
               </div>
-              <Link href="/blog">
-                <a className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/blog") ? "text-primary" : ""}`}>
-                  Tin tức
-                </a>
+              <Link href="/blog" className={`font-heading font-medium hover:text-primary transition-colors ${isActive("/blog") ? "text-primary" : ""}`}>
+                Tin tức
               </Link>
             </nav>
 

@@ -40,15 +40,11 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
           </button>
         </div>
         <nav className="p-4">
-          <Link href="/">
-            <a className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
-              Trang chủ
-            </a>
+          <Link href="/" className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
+            Trang chủ
           </Link>
-          <Link href="/products">
-            <a className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
-              Sản phẩm
-            </a>
+          <Link href="/products" className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
+            Sản phẩm
           </Link>
 
           <div className="py-3 border-b border-neutral-200">
@@ -60,50 +56,37 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
               {isSubmenuOpen ? <ChevronUp className="h-5 w-5" /> : <ChevronDown className="h-5 w-5" />}
             </div>
             <div className={`pl-4 mt-2 ${isSubmenuOpen ? "block" : "hidden"}`}>
-              <Link href="/products?category=ao-bong-da">
-                <a className="block py-2 text-sm" onClick={onClose}>
-                  Áo bóng đá
-                </a>
+              <Link href="/products?category=ao-bong-da" className="block py-2 text-sm" onClick={onClose}>
+                Áo bóng đá
               </Link>
-              <Link href="/products?category=giay-bong-da">
-                <a className="block py-2 text-sm" onClick={onClose}>
-                  Giày bóng đá
-                </a>
+              <Link href="/products?category=giay-bong-da" className="block py-2 text-sm" onClick={onClose}>
+                Giày bóng đá
               </Link>
-              <Link href="/products?category=bong">
-                <a className="block py-2 text-sm" onClick={onClose}>
-                  Bóng
-                </a>
+              <Link href="/products?category=bong" className="block py-2 text-sm" onClick={onClose}>
+                Bóng
               </Link>
-              <Link href="/products?category=phu-kien">
-                <a className="block py-2 text-sm" onClick={onClose}>
-                  Phụ kiện
-                </a>
+              <Link href="/products?category=phu-kien" className="block py-2 text-sm" onClick={onClose}>
+                Phụ kiện
               </Link>
             </div>
           </div>
 
-          <Link href="/blog">
-            <a className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
-              Tin tức
-            </a>
+          <Link href="/blog" className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
+            Tin tức
           </Link>
-          <Link href="/contact">
-            <a className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
-              Liên hệ
-            </a>
+          <Link href="/contact" className="block py-3 border-b border-neutral-200 font-heading font-medium" onClick={onClose}>
+            Liên hệ
           </Link>
           
           <div className="mt-6">
             {user ? (
               <>
-                <Link href="/my-orders">
-                  <a 
-                    className="block bg-primary text-white text-center py-3 rounded-lg font-heading font-semibold mb-3"
-                    onClick={onClose}
-                  >
-                    Đơn hàng của tôi
-                  </a>
+                <Link 
+                  href="/my-orders" 
+                  className="block bg-primary text-white text-center py-3 rounded-lg font-heading font-semibold mb-3"
+                  onClick={onClose}
+                >
+                  Đơn hàng của tôi
                 </Link>
                 <button
                   className="w-full block border border-primary text-primary text-center py-3 rounded-lg font-heading font-semibold"
@@ -114,21 +97,19 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
               </>
             ) : (
               <>
-                <Link href="/auth">
-                  <a 
-                    className="block bg-primary text-white text-center py-3 rounded-lg font-heading font-semibold mb-3"
-                    onClick={onClose}
-                  >
-                    Đăng nhập
-                  </a>
+                <Link 
+                  href="/auth"
+                  className="block bg-primary text-white text-center py-3 rounded-lg font-heading font-semibold mb-3"
+                  onClick={onClose}
+                >
+                  Đăng nhập
                 </Link>
-                <Link href="/auth">
-                  <a 
-                    className="block border border-primary text-primary text-center py-3 rounded-lg font-heading font-semibold"
-                    onClick={onClose}
-                  >
-                    Đăng ký
-                  </a>
+                <Link 
+                  href="/auth"
+                  className="block border border-primary text-primary text-center py-3 rounded-lg font-heading font-semibold"
+                  onClick={onClose}
+                >
+                  Đăng ký
                 </Link>
               </>
             )}
